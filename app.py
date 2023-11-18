@@ -8,5 +8,5 @@ def get_tasks():
     return jsonify({'game': "0"})
 
 @app.route('/tokens/<address>', methods=['GET'])
-def get_tokens():
+def get_tokens(address):
     return jsonify({'hasToken': "99"})
