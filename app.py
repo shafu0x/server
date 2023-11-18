@@ -19,4 +19,4 @@ tasks = [
 # Route to get all tasks
 @app.route('/games', methods=['GET'])
 def get_tasks():
-    return jsonify({'tasks': tasks})
+    return jsonify({'game': "0"})
